@@ -73,7 +73,14 @@
                     <h1 class="text-3xl font-bold my-8 text-center">Learn More About Celestial Bodies</h1>
                     <ul class="list-none pl-5 space-y-2">
                         <li id="celestial-sun" class="celestial-item cursor-pointer py-1 hover:text-[#3d98f4] transition-colors duration-150 text-lg">Sun</li>
+                        <li id="celestial-mercury" class="celestial-item cursor-pointer py-1 hover:text-[#3d98f4] transition-colors duration-150 text-lg">Mercury</li>
+                        <li id="celestial-venus" class="celestial-item cursor-pointer py-1 hover:text-[#3d98f4] transition-colors duration-150 text-lg">Venus</li>
                         <li id="celestial-earth" class="celestial-item cursor-pointer py-1 hover:text-[#3d98f4] transition-colors duration-150 text-lg">Earth</li>
+                        <li id="celestial-mars" class="celestial-item cursor-pointer py-1 hover:text-[#3d98f4] transition-colors duration-150 text-lg">Mars</li>
+                        <li id="celestial-jupiter" class="celestial-item cursor-pointer py-1 hover:text-[#3d98f4] transition-colors duration-150 text-lg">Jupiter</li>
+                        <li id="celestial-saturn" class="celestial-item cursor-pointer py-1 hover:text-[#3d98f4] transition-colors duration-150 text-lg">Saturn</li>
+                        <li id="celestial-uranus" class="celestial-item cursor-pointer py-1 hover:text-[#3d98f4] transition-colors duration-150 text-lg">Uranus</li>
+                        <li id="celestial-neptune" class="celestial-item cursor-pointer py-1 hover:text-[#3d98f4] transition-colors duration-150 text-lg">Neptune</li>
                     </ul>
 
                     <div id="popup-sun" class="popup-overlay hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50">
@@ -82,7 +89,9 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg>
                             </button>
                             <h2 class="text-xl font-bold mb-4">Sun</h2>
-                            <p>The Sun is the star at the center of the Solar System. It is a nearly perfect ball of hot plasma, heated to incandescence by nuclear fusion reactions in its core.</p>
+                            <img src="https://images-assets.nasa.gov/image/PIA17669/PIA17669~orig.jpg" alt="Image of the Sun" class="w-full h-auto rounded-md mb-4">
+                            <p class="mb-2">The Sun is the star at the heart of our solar system. Its gravity holds everything in orbit and its energy drives seasons, weather, and climate on Earth. This image from NASA's Solar Dynamics Observatory shows a coronal hole (dark region), a source of fast solar wind.</p>
+                            <p>Moons: None.</p>
                         </div>
                     </div>
                     <div id="popup-earth" class="popup-overlay hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50">
@@ -91,7 +100,93 @@
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg>
                             </button>
                             <h2 class="text-xl font-bold mb-4">Earth</h2>
-                            <p>Earth is the third planet from the Sun and the only astronomical object known to harbor life. About 29.2% of Earth's surface is land consisting of continents and islands.</p>
+                            <img src="https://www.nasa.gov/wp-content/uploads/2023/11/as17-148-22727-orig.jpg" alt="Image of Earth - The Blue Marble" class="w-full h-auto rounded-md mb-4">
+                            <p class="mb-2">Earth is our home planet, the third from the Sun, and the only known astronomical object to harbor life. It's an ocean world with continents and islands, featuring a dynamic atmosphere that supports diverse climates. This iconic 'Blue Marble' view was taken by the crew of Apollo 17 in 1972.</p>
+                            <p>Main Moon: The Moon (Luna).</p>
+                        </div>
+                    </div>
+
+                    <div id="popup-mercury" class="popup-overlay hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50">
+                        <div class="popup-content bg-[#1f2937] p-6 rounded-lg border border-gray-700 shadow-xl relative text-white min-w-[300px] max-w-[500px]">
+                            <button class="close-btn absolute top-3 right-3 text-gray-400 hover:text-white cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg>
+                            </button>
+                            <h2 class="text-xl font-bold mb-4">Mercury</h2>
+                            <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/o/poster_mercury_front_a.jpg" alt="Image of Mercury" class="w-full h-auto rounded-md mb-4">
+                            <p class="mb-2">Mercury is the smallest planet in our solar system and closest to the Sun. It has a heavily cratered surface and a very thin atmosphere, experiencing extreme temperature variations.</p>
+                            <p>Moons: None.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup-venus" class="popup-overlay hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50">
+                        <div class="popup-content bg-[#1f2937] p-6 rounded-lg border border-gray-700 shadow-xl relative text-white min-w-[300px] max-w-[500px]">
+                            <button class="close-btn absolute top-3 right-3 text-gray-400 hover:text-white cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg>
+                            </button>
+                            <h2 class="text-xl font-bold mb-4">Venus</h2>
+                            <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg" alt="Image of Venus" class="w-full h-auto rounded-md mb-4">
+                            <p class="mb-2">Venus, our nearest planetary neighbor, is similar in size to Earth but has an extremely hot and toxic atmosphere, primarily composed of carbon dioxide with clouds of sulfuric acid.</p>
+                            <p>Moons: None.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup-mars" class="popup-overlay hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50">
+                        <div class="popup-content bg-[#1f2937] p-6 rounded-lg border border-gray-700 shadow-xl relative text-white min-w-[300px] max-w-[500px]">
+                            <button class="close-btn absolute top-3 right-3 text-gray-400 hover:text-white cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg>
+                            </button>
+                            <h2 class="text-xl font-bold mb-4">Mars</h2>
+                            <img src="https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2025/04/STScI-01JQCDEBJ6WPM47PRYWREE0S57.tif/jcr:content/renditions/Full%20Res%20(JPG).jpg" alt="Image of Mars" class="w-full h-auto rounded-md mb-4">
+                            <p class="mb-2">Mars is the fourth planet from the Sun, known as the Red Planet due to its iron oxide surface. It has polar ice caps, the largest volcano in the solar system, and evidence of ancient liquid water.</p>
+                            <p>Moons: Phobos, Deimos.</p>
+                        </div>
+                    </div>
+
+                    <div id="popup-jupiter" class="popup-overlay hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50">
+                        <div class="popup-content bg-[#1f2937] p-6 rounded-lg border border-gray-700 shadow-xl relative text-white min-w-[300px] max-w-[500px]">
+                            <button class="close-btn absolute top-3 right-3 text-gray-400 hover:text-white cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg>
+                            </button>
+                            <h2 class="text-xl font-bold mb-4">Jupiter</h2>
+                            <img src="https://science.nasa.gov/wp-content/uploads/2023/05/jupiter-marble-pia22946-1920x640-1.jpg" alt="Image of Jupiter" class="w-full h-auto rounded-md mb-4">
+                            <p class="mb-2">Jupiter, the largest planet in our solar system, is a gas giant known for its Great Red Spot, a massive storm. It has a strong magnetic field and dozens of moons.</p>
+                            <p>Main Moons: Io, Europa, Ganymede, Callisto. (95 total known).</p>
+                        </div>
+                    </div>
+
+                    <div id="popup-saturn" class="popup-overlay hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50">
+                        <div class="popup-content bg-[#1f2937] p-6 rounded-lg border border-gray-700 shadow-xl relative text-white min-w-[300px] max-w-[500px]">
+                            <button class="close-btn absolute top-3 right-3 text-gray-400 hover:text-white cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg>
+                            </button>
+                            <h2 class="text-xl font-bold mb-4">Saturn</h2>
+                            <img src="https://images-assets.nasa.gov/image/PIA17175/PIA17175~orig.jpg" alt="Image of Saturn" class="w-full h-auto rounded-md mb-4">
+                            <p class="mb-2">Saturn, the sixth planet from the Sun, is famous for its spectacular ring system. It's another gas giant with numerous moons, including the intriguing Titan and Enceladus.</p>
+                            <p>Main Moons: Titan, Enceladus. (Dozens total known).</p>
+                        </div>
+                    </div>
+
+                    <div id="popup-uranus" class="popup-overlay hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50">
+                        <div class="popup-content bg-[#1f2937] p-6 rounded-lg border border-gray-700 shadow-xl relative text-white min-w-[300px] max-w-[500px]">
+                            <button class="close-btn absolute top-3 right-3 text-gray-400 hover:text-white cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg>
+                            </button>
+                            <h2 class="text-xl font-bold mb-4">Uranus</h2>
+                            <img src="https://science.nasa.gov/wp-content/uploads/2024/05/webb-stsci-01hhfp5g5bxsc5m7dx6dg9yxmb.png" alt="Image of Uranus" class="w-full h-auto rounded-md mb-4">
+                            <p class="mb-2">Uranus, the seventh planet from the Sun, is an ice giant with a unique tilt, rotating on its side. It has a faint ring system and many moons.</p>
+                            <p>Main Moons: Titania, Oberon, Umbriel, Ariel, Miranda. (28 total known).</p>
+                        </div>
+                    </div>
+
+                    <div id="popup-neptune" class="popup-overlay hidden fixed inset-0 bg-black bg-opacity-50 items-center justify-center z-50">
+                        <div class="popup-content bg-[#1f2937] p-6 rounded-lg border border-gray-700 shadow-xl relative text-white min-w-[300px] max-w-[500px]">
+                            <button class="close-btn absolute top-3 right-3 text-gray-400 hover:text-white cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z"></path></svg>
+                            </button>
+                            <h2 class="text-xl font-bold mb-4">Neptune</h2>
+                            <img src="https://science.nasa.gov/wp-content/uploads/2024/05/for_nasa.gov_imagea-neptune.png" alt="Image of Neptune" class="w-full h-auto rounded-md mb-4">
+                            <p class="mb-2">Neptune is the eighth and most distant major planet orbiting our Sun. It's a dark, cold, and very windy ice giant, with the fastest winds in the solar system.</p>
+                            <p>Main Moons: Triton. (14 total known).</p>
                         </div>
                     </div>
                 </div>
@@ -142,58 +237,47 @@
     </div>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Sun
-    const sunItem = document.getElementById('celestial-sun');
-    const sunPopup = document.getElementById('popup-sun');
-    // Earth
-    const earthItem = document.getElementById('celestial-earth');
-    const earthPopup = document.getElementById('popup-earth');
+    const celestialItems = [
+      { itemId: 'celestial-sun', popupId: 'popup-sun' },
+      { itemId: 'celestial-mercury', popupId: 'popup-mercury' },
+      { itemId: 'celestial-venus', popupId: 'popup-venus' },
+      { itemId: 'celestial-earth', popupId: 'popup-earth' },
+      { itemId: 'celestial-mars', popupId: 'popup-mars' },
+      { itemId: 'celestial-jupiter', popupId: 'popup-jupiter' },
+      { itemId: 'celestial-saturn', popupId: 'popup-saturn' },
+      { itemId: 'celestial-uranus', popupId: 'popup-uranus' },
+      { itemId: 'celestial-neptune', popupId: 'popup-neptune' }
+    ];
 
-    // Function to open a popup
-    function openPopup(popupElement) {
-      if (popupElement) {
-        popupElement.classList.remove('hidden');
+    celestialItems.forEach(item => {
+      const celestialElement = document.getElementById(item.itemId);
+      const popupElement = document.getElementById(item.popupId);
+
+      if (celestialElement && popupElement) {
+        celestialElement.addEventListener('click', () => {
+          popupElement.classList.remove('hidden');
+        });
       }
-    }
+    });
 
-    // Function to close a popup
-    function closePopup(popupElement) {
-      if (popupElement) {
-        popupElement.classList.add('hidden');
-      }
-    }
-
-    // Event listeners for celestial items
-    if (sunItem && sunPopup) {
-      sunItem.addEventListener('click', () => {
-        openPopup(sunPopup);
-      });
-    }
-
-    if (earthItem && earthPopup) {
-      earthItem.addEventListener('click', () => {
-        openPopup(earthPopup);
-      });
-    }
-
-    // Event listeners for all close buttons
     const closeButtons = document.querySelectorAll('.close-btn');
     closeButtons.forEach(button => {
       button.addEventListener('click', () => {
         // Find the closest parent popup-overlay and close it
         const popupToClose = button.closest('.popup-overlay');
-        closePopup(popupToClose);
+        if (popupToClose) { // Added a check for popupToClose
+          popupToClose.classList.add('hidden');
+        }
       });
     });
 
     // Event listeners for popup overlays (to close when clicking outside content)
     const popupOverlays = document.querySelectorAll('.popup-overlay');
+
     popupOverlays.forEach(overlay => {
       overlay.addEventListener('click', (event) => {
-        // If the click is on the overlay itself (event.target)
-        // and not on a descendant of popup-content
         if (event.target === overlay) {
-          closePopup(overlay);
+          overlay.classList.add('hidden');
         }
       });
     });
